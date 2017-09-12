@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.finalapp">
+
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:name="com.example.android.finalapp.QuizDriver"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light" >
+        <activity
+            android:name="com.example.android.finalapp.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.android.finalapp.Question1"
+            android:label="@string/title_activity_question1" >
+        </activity>
+        <activity
+            android:name="com.example.android.finalapp.ResultsActivity"
+            android:label="@string/title_activity_results" >
+        </activity>
+        <activity
+            android:name="com.example.android.finalapp.Question2"
+            android:label="@string/title_activity_question2" >
+        </activity>
+        <activity
+            android:name="com.example.android.finalapp.Instruction"
+            android:label="@string/title_activity_instruction" >
+        </activity>
+        <activity
+            android:name="Question3" android:label="@string/title_activity_question3"></activity>
+        <activity android:name="Question4" android:label="@string/title_activity_question4"></activity>
+        <activity android:label="@string/title_activity_question5" android:name="Question5">question5.xml</activity>
+        <activity android:label="@string/title_activity_question6" android:name="Question6"></activity>
+        <activity android:label="@string/title_activity_question7" android:name="Question7"></activity>
+        <activity android:name="Question8" android:label="@string/title_activity_question8"></activity>
+        <activity android:name="Question9" android:label="@string/title_activity_question9"></activity>
+        <activity android:name="Question10" android:label="@string/title_activity_question10"></activity>
+    </application>
+
+</manifest>
